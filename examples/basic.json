@@ -1,0 +1,18 @@
+{
+  "cases": [
+    {
+      "id": "concise-answer",
+      "output": "Paris is the capital of France.",
+      "contains": ["Paris", "France"],
+      "excludes": ["London"],
+      "max_length": 80
+    },
+    {
+      "id": "arabic-answer",
+      "output": "الموصل مدينة عراقية تقع في محافظة نينوى.",
+      "contains": ["الموصل", "نينوى"],
+      "regex": ["مدينة\\s+عراقية"],
+      "max_length": 100
+    }
+  ]
+}
